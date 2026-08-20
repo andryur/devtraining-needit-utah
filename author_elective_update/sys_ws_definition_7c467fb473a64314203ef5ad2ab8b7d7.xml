@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_definition">
+    <sys_ws_definition action="DELETE">
+        <active>true</active>
+        <base_uri>/api/x_58872_needit/needit_api</base_uri>
+        <consumes>application/json</consumes>
+        <consumes_customized>true</consumes_customized>
+        <default_version>No active default version</default_version>
+        <doc_link>https://dev428454.service-now.com/x_58872_needit_needit_api_documentation.do</doc_link>
+        <enforce_acl>9bdf2c9137031200612747efbe41f1fd</enforce_acl>
+        <is_versioned>false</is_versioned>
+        <name>NeedIt API</name>
+        <namespace>x_58872_needit</namespace>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <service_id>needit_api</service_id>
+        <short_description>Provides access to the NeedIt application record data</short_description>
+        <sys_class_name>sys_ws_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-04 22:01:27</sys_created_on>
+        <sys_id>7c467fb473a64314203ef5ad2ab8b7d7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>NeedIt API</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ws_definition_7c467fb473a64314203ef5ad2ab8b7d7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-09 14:48:59</sys_updated_on>
+    </sys_ws_definition>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>c00a58543bce0714a36804e0b5e45adb</instance_id>
+        <instance_name>dev428454</instance_name>
+        <name>sys_ws_definition_7c467fb473a64314203ef5ad2ab8b7d7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_definition"><sys_ws_definition action="INSERT_OR_UPDATE"><active>true</active><base_uri>/api/x_58872_needit/needit_api</base_uri><consumes>application/json</consumes><consumes_customized>true</consumes_customized><default_version>No active default version</default_version><doc_link>https://dev428454.service-now.com/x_58872_needit_needit_api_documentation.do</doc_link><enforce_acl>9bdf2c9137031200612747efbe41f1fd</enforce_acl><is_versioned>false</is_versioned><name>NeedIt API</name><namespace>x_58872_needit</namespace><produces>application/json,application/xml,text/xml</produces><produces_customized>false</produces_customized><service_id>needit_api</service_id><short_description>Provides access to the NeedIt application record data</short_description><sys_class_name>sys_ws_definition</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-04 22:01:27</sys_created_on><sys_id>7c467fb473a64314203ef5ad2ab8b7d7</sys_id><sys_mod_count>2</sys_mod_count><sys_name>NeedIt API</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy>read</sys_policy><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_ws_definition_7c467fb473a64314203ef5ad2ab8b7d7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-09 14:48:59</sys_updated_on></sys_ws_definition></record_update>]]></payload>
+        <payload_hash>-1538677309</payload_hash>
+        <record_name>NeedIt API</record_name>
+        <reverted_from/>
+        <source>8c4fc29f731647d0203ef5ad2ab8b777</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-09 14:48:59</sys_created_on>
+        <sys_id>57f7402e732a0710203ef5ad2ab8b77a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19fe6ff9c6e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-09 14:48:59</sys_updated_on>
+        <type>Scripted REST API</type>
+        <update_guid>dff7402e582a0710b0e98b75f4bc8378</update_guid>
+        <update_guid_history>dff7402e582a0710b0e98b75f4bc8378:-1538677309,c87efb74ace643147656cbabc41e2869:-1389952206,e10bf7fca4a643146cb5c4c8794ab20b:1177366284</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-09 16:57:52</sys_created_on>
+        <sys_db_object display_value="" name="sys_ws_definition">sys_ws_definition</sys_db_object>
+        <sys_id>4f110eec316a4398a9aa229249a75510</sys_id>
+        <sys_metadata>7c467fb473a64314203ef5ad2ab8b7d7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt API</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_ws_definition_7c467fb473a64314203ef5ad2ab8b7d7</sys_update_name>
+        <sys_update_version display_value="sys_ws_definition_7c467fb473a64314203ef5ad2ab8b7d7">57f7402e732a0710203ef5ad2ab8b77a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-09 16:57:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
